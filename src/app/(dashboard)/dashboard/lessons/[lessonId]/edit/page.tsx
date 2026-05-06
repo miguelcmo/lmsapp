@@ -1,4 +1,4 @@
-import prisma from "@/lib/prisma"
+import {prisma} from "@/lib/prisma"
 import EditorWrapper from "./components/EditorWrapper"
 
 export default async function LessonEditPage({
