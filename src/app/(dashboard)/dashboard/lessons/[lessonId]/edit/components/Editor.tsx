@@ -121,16 +121,10 @@
 // )
 // }
 
-import { NotionEditor } from '@/components/tiptap-templates/notion-like/notion-like-editor'
 
-export default function Editor({ content, onChange }: any) {
+
+export default function Editor() {
   return (
-    <NotionEditor 
-      room="my-document-room" 
-      placeholder="Start writing..." 
-      content={content}
-      onChange={onChange}
-      enableCollaboration={false}
-    />
+    <>Editor</>
   )
 }
