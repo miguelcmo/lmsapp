@@ -1,4 +1,4 @@
-import prisma from "@/lib/prisma"
+import {prisma} from "@/lib/prisma"
 import { getTenantId } from "@/lib/getTenant"
 import ModulesList from "./components/ModulesList"
 
