@@ -1,4 +1,4 @@
-import prisma from "@/lib/prisma"
+import {prisma} from "@/lib/prisma"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 
 export default async function RecentActivity({ tenantId }: { tenantId: string }) {

@@ -1,4 +1,4 @@
-import prisma from "@/lib/prisma"
+import {prisma} from "@/lib/prisma"
 import { cache } from "react"
 
 export const getDashboardStats = cache(async (tenantId: string) => {
